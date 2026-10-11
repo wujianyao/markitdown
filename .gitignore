@@ -166,3 +166,32 @@ cython_debug/
 src/.DS_Store
 .DS_Store
 .cursorrules
+# Ignore entire .claude directory (Claude Code local config, no business value)
+.claude/
+
+# ===== User-added ignore rules =====
+
+# Archives
+*.zip
+*.rar
+
+# Node.js dependencies
+node_modules/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+*.3gp
+*.ts
+*.rm
+*.rmvb
+*.vob
+*.ogv
